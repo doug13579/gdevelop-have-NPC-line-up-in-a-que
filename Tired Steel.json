@@ -339,14 +339,7 @@
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "FirstSpace",
-              "type": "boolean",
-              "value": true
-            }
-          ]
+          "initialVariables": []
         },
         {
           "angle": 0,
@@ -828,7 +821,7 @@
               "italic": false,
               "smoothed": true,
               "underlined": false,
-              "string": "Button",
+              "string": "Spawn",
               "font": "ArchitectsDaughter.ttf",
               "textAlignment": "center",
               "characterSize": 22,
@@ -851,7 +844,7 @@
                 "shadowOpacity": 127,
                 "smoothed": true,
                 "underlined": false,
-                "text": "Button",
+                "text": "Spawn",
                 "font": "ArchitectsDaughter.ttf",
                 "textAlignment": "center",
                 "characterSize": 22,
@@ -943,12 +936,6 @@
               "name": "IsEmpty",
               "type": "boolean",
               "value": true
-            },
-            {
-              "folded": true,
-              "name": "FirstSpace",
-              "type": "boolean",
-              "value": false
             }
           ],
           "effects": [],
@@ -1046,7 +1033,7 @@
               "italic": false,
               "smoothed": true,
               "underlined": false,
-              "string": "Button",
+              "string": "Spawn",
               "font": "ArchitectsDaughter.ttf",
               "textAlignment": "center",
               "characterSize": 22,
@@ -1069,7 +1056,7 @@
                 "shadowOpacity": 127,
                 "smoothed": true,
                 "underlined": false,
-                "text": "Button",
+                "text": "Spawn",
                 "font": "ArchitectsDaughter.ttf",
                 "textAlignment": "center",
                 "characterSize": 22,
@@ -1763,16 +1750,6 @@
                     "RefillQue",
                     "True"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "ObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Space",
-                    "FirstSpace",
-                    "True"
-                  ]
                 }
               ],
               "actions": [
@@ -2027,10 +2004,6 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
-        },
-        {
-          "name": "Text",
-          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     }
